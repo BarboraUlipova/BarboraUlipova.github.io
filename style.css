@@ -1,4 +1,4 @@
-a@charset "utf-8";
+@charset "utf-8";
 body {
 	font: 100%/1.4 Calibri;
 	background-color: #FFF;
@@ -6,6 +6,11 @@ body {
 	padding: 0;
 	color: #000;
 }
+
+.navigation-list {
+	margin-top: 20px;
+}
+
 ul, ol, dl { 
 	padding: 0;
 	margin: 0;
@@ -87,8 +92,11 @@ header {
 }
 .content_slide {
 	padding: 10px 0;
-	width: 900px;
+	width: 100%;
 	float: right;
+}
+.content_slide img{
+	width: 100%;
 }
 .content ul, .content ol {
 	padding: 0 15px 15px 40px; 
@@ -128,8 +136,6 @@ header, section, footer, aside, article, figure {
 }
 
 nav {
-	margin:-80px;
-	margin-left: 45%;
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size:14px;
 	font-weight:500;
@@ -187,4 +193,15 @@ nav {
 .medalion_photo{
 	margin-left:60%;
 	margin-top:-10%;
+}
+
+@media (max-width: 760px) {
+    .container { 
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    nav.navbar-fixed-top { 
+        position: relative;
+    }
 }
