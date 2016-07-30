@@ -54,10 +54,9 @@ a:hover, a:active, a:focus {
 	background-color: #FFFFFF;
 }
 
-.container {
-	width: 900px;
+.container {			
 	background-color: #FFFFFF;
-	margin: 0 auto; 
+	margin-top: 150px; 
 	font-family: Calibri;
 	color: #000;
 	font-weight: 400;
@@ -150,7 +149,9 @@ header, section, footer, aside, article, figure {
 	display: block;
 }.logo {
 	vertical-align: 50%;
+
 }
+
 
 nav {
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
