@@ -105,9 +105,17 @@ header {
 	padding: 0 15px 15px 40px; 
 }
 
-ul.nav {
-	float: right;
+ul.nav {	
 	margin-top: 60px;
+}
+
+
+#collapse-button {
+	float: left;
+}
+
+nav.navbar-default {
+	border-color: #FFFFFF;
 }
 
 /*
